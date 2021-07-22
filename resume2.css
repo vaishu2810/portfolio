@@ -1,0 +1,244 @@
+      @import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
+   *{
+   font-family: 'Katibeh', cursive;
+   }
+    body {
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+*{
+box-sizing:content-box;
+}
+
+header{
+margin-top:180px;
+padding-top:0px;
+text-align:center;
+font-size:40px;
+color:#8c0073;
+margin-right:0px;
+border: 2.5px solid white;
+width: 880px;
+background: #CC95C0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* fallback for old browsers */
+
+}
+
+.section
+{
+border: 7px solid white;
+}
+
+nav{
+float:left;
+width:30%;
+height:1100px;
+background: #7AA1D3;  /* fallback for old browsers */
+margin-right:0px;
+border: 2.5px solid white;
+width: 260px;
+padding:0px;
+margin-bottom:20%;
+}
+
+article{
+float:left;
+padding:0px;
+width:70%;
+margin-right:0px;
+border: 2.5px solid white;
+width: 615px;
+background: #CC95C0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height:1100px;
+margin-bottom:20%;
+}
+
+
+@media(max-width:600px){
+nav,article{
+width:100%;
+height:auto;
+}
+}
+
+#wrap{
+width:900px;
+margin:0 auto;
+}
+
+.profileText
+{
+ position: relative;
+ display: cover;
+ flex-direction: column;
+ align-items: center;
+ padding-bottom: 10px;
+ border-bottom: 3px solid rgba(255,255,255,0.2);
+}
+
+.profileText .imgbx
+{
+ position: relative;
+ width: 200px;
+ height: 200px;
+ border-radius:100%;
+ overflow: hidden;
+ }
+
+.profileText .imgbx img
+{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width:100%;
+ height: 100%;
+ object-fit: cover;
+}
+
+.profileText h2
+{
+ color:black;
+ font-size: 30px;
+ Letter-spacing: 2px;
+ margin-top: 10px;
+ line-height: 1cm;
+background: #F7F8F8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACBB78, #F7F8F8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACBB78, #F7F8F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contact
+{
+ font-size: 20px;
+ Letter-spacing: 1.5px;
+ line-height: 0.5cm;
+ align-items:left;
+ margin-left:10px;
+ border-bottom: 3px solid rgba(255,255,255,0.2);
+ }
+
+.skills
+{
+ font-size: 16px;
+ Letter-spacing: 1.5px;
+ line-height: 0;
+ align-items:center;
+ border-bottom: 3px solid rgba(255,255,255,0.2);
+}
+
+.skills .skills1 .box
+{
+position: relative;
+width:200%;
+display:grid;
+grid-template-columns:58px 0.9fr;
+justify-content:center;
+align-items:center;
+ Letter-spacing: 1.5px;
+ line-height: 0.3cm;
+}
+
+.skills .skills1 .box .percent
+{
+position:relative;
+width:38%;
+height:10px;
+background:#f0f0f0;
+}
+
+.skills .skills1 .box .percent div
+{
+position:absolute;
+top:0;
+left:0;
+height:100%;
+background:#6633cc;
+}
+
+.education
+{
+ position: center;
+ display: cover;
+ flex-direction: column;
+ align-items: center;
+Letter-spacing:1.5px;
+line-height: 0.5cm;
+font-size:15px;
+color: #fff;
+margin-left:10px;
+}
+
+.education .edudetails
+{
+ position: center;
+ display: cover;
+ flex-direction: column;
+ align-items: center;
+Letter-spacing:1.5px;
+line-height: 0.2cm;
+color: black;
+margin-left:0;
+ border-bottom: 3px solid rgba(255,255,255,0.2);
+
+}
+
+.education .project
+{
+position: center;
+ display: cover;
+ flex-direction: column;
+ align-items: center;
+Letter-spacing:1.5px;
+line-height: 1cm;
+color: black;
+font-size:15px;
+margin-left:10px;
+}
+
+.education .project .project2
+{
+ position: center;
+ display: cover;
+ flex-direction: column;
+ align-items: center;
+Letter-spacing:1.5px;
+line-height: 0.7cm;
+color: black;
+font-size:20px;
+margin-left:0px;
+}
+
+.education .project .project3
+{
+ position: center;
+ display: cover;
+ flex-direction: column;
+ align-items: center;
+Letter-spacing:1.5px;
+line-height: 0.7cm;
+color: black;
+font-size:20px;
+margin-left:0px;
+ border-bottom: 3px solid rgba(255,255,255,0.2);
+}
+
+.hobby
+{
+position: center;
+ display: cover;
+ flex-direction: column;
+ align-items: center;
+Letter-spacing:1.5px;
+line-height: 0.7cm;
+color:black;
+margin-left:0;
+font-size:20px;
+ border-bottom: 3px solid rgba(255,255,255,0.2);
+}
